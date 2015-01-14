@@ -1,0 +1,21 @@
+s=start .
+q=exit
+g=doskey /macros
+
+gs=git status
+gc=git clean -f -d
+gb=git branch -a
+gl=git log
+gr=git reflog
+ga=git add -A
+v="%ProgramFiles(x86)%\git\bin\wish" "%ProgramFiles(x86)%\git\bin\gitk" --all
+
+gm=git checkout master
+gp=git checkout pluggableformat
+
+w=sln\Microsoft.OData.Lite.sln
+e=sln\Microsoft.OData.E2E.sln
+a=sln\Microsoft.OData.Full.sln
+
+
+
