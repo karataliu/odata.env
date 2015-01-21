@@ -1,21 +1,24 @@
 s=start .
 q=exit
 g=doskey /macros
+r=cd /d %ROOT%
 
 gs=git status
 gc=git clean -f -d
 gb=git branch -a
 gl=git log
 gr=git reflog
-ga=git add -A
+ga=git add -A .
+grh=git reset --hard
 v="%ProgramFiles(x86)%\git\bin\wish" "%ProgramFiles(x86)%\git\bin\gitk" --all
 
 gm=git checkout master
-gp=git checkout pluggableformat
+g1=git checkout %BRANCH1%
+g2=git checkout %BRANCH2%
 
 w=sln\Microsoft.OData.Lite.sln
 e=sln\Microsoft.OData.E2E.sln
 a=sln\Microsoft.OData.Full.sln
-
+c=sln\Microsoft.OData.CodeGen.sln
 
 
