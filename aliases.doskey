@@ -4,12 +4,17 @@ g=doskey /macros
 r=cd /d %ROOT%
 
 gs=git status
+gd=git diff
 gc=git clean -f -d
+gcx=git clean -f -d -x
 gb=git branch -a
 gl=git log
 gr=git reflog
 ga=git add -A .
+gmt=git commit -m "tmp"
+gmm=git commit --amend
 grh=git reset --hard
+gfp=git fetch -p
 v="%ProgramFiles(x86)%\git\bin\wish" "%ProgramFiles(x86)%\git\bin\gitk" --all
 
 gm=git checkout master
