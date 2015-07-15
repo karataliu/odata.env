@@ -8,11 +8,11 @@ gd=git diff
 gc=git clean -f -d
 gcx=git clean -f -d -x
 gb=git branch -a
-gl=git log
+gl=git log --graph --full-history --all --pretty=format:"%h%x09%d%x20%s"
 gr=git reflog
 ga=git add -A .
 gmt=git commit -m "tmp"
-gmm=git commit --amend
+gmm=git commit --amend --no-edit
 grh=git reset --hard
 gfp=git fetch -p
 v="%ProgramFiles(x86)%\git\bin\wish" "%ProgramFiles(x86)%\git\bin\gitk" --all
