@@ -25,5 +25,5 @@ w=sln\Microsoft.OData.Lite.sln
 e=sln\Microsoft.OData.E2E.sln
 a=sln\Microsoft.OData.Full.sln
 c=sln\Microsoft.OData.CodeGen.sln
-
+t=RESTier.sln
 
