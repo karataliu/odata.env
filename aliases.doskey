@@ -15,7 +15,7 @@ gmt=git commit -m "tmp"
 gmm=git commit --amend --no-edit
 grh=git reset --hard
 gfp=git fetch -p --all
-v="%ProgramFiles(x86)%\git\bin\wish" "%ProgramFiles(x86)%\git\bin\gitk" --all
+v="%ProgramFiles%\git\cmd\gitk" --all
 
 gm=git checkout master
 g1=git checkout %BRANCH1%
